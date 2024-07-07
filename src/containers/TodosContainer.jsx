@@ -6,7 +6,6 @@ import Todos from "../components/Todos";
 const TodosContainer = () => {
   const input = useSelector((state) => state.todos.input);
   const todos = useSelector((state) => state.todos.todos);
-  console.log(input);
   // const { input, todos } = useSelector(({ todos }) => ({
   //   input: todos.input,
   //   todos: todos.todos,

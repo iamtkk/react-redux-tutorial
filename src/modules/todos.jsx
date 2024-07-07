@@ -64,7 +64,7 @@ const initialState = {
 // reducer
 const todos = handleActions(
   {
-    [CHANGE_INPUT]: (state, { paylad: input }) =>
+    [CHANGE_INPUT]: (state, { payload: input }) =>
       produce(state, (draft) => {
         draft.input = input;
       }),
